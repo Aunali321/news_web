@@ -1,0 +1,12 @@
+[build]
+functions = "functions"
+
+[[redirects]]
+to = "/.netlify/functions/server/:splat"
+from = "/api/*"
+status = 200
+
+[[headers]]
+for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
