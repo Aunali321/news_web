@@ -20,7 +20,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container pb-15">
+      <div class="container-fluid pb-15">
         <a href="#" class="navbar-brand" id="branding">
           <img src="./images/logo.png" alt="" width="60" height="60" class="d-inline-block" id="logo">
           TechBits
@@ -46,76 +46,79 @@
       </div>
     </nav>
 
-    <button class="btn btn-primary" id="getbutton">Test</button>
+    <!-- <button class="btn btn-primary" id="getbutton">Test</button> -->
 
     <!-- Carousel Section -->
     <section>
-        <div id="carouselNewsHeadlines" class="carousel slide" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="0" class="active" aria-current="true"></li>
-            <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="1"></li>
-            <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="2"></li>
-            <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-              <div class="container" id="carousel-item">
-              <div class="overlay-image" style="background-image: url(./images/fire.jpg);"></div>
-              <h1>Tesla down by 13% this week.</h1>
-              <p>
-                Tesla’s stock has dropped by 13% this week, according to the
-                company’s earnings report.
-              </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="overlay-image" style="background-image: url(./images/forest.jpg);"></div>
-              <div class="container" id="carousel-item">
-                <h1>Nykaa crosses 12 billion valuation</h1>
+        <div class="container-fluid text-center px-0">
+          <div id="carouselNewsHeadlines" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="0" class="active" aria-current="true"></li>
+              <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carouselNewsHeadlines" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active" id="carousel0">
+                <div class="container" id="carousel-item">
+                <div class="overlay-image" style="background-image: url(./images/fire.jpg);"></div>
+                <h1>Tesla down by 13% this week.</h1>
                 <p>
-                  The Indian e-commerce giant has crossed the 12 billion
-                  valuation mark, according to a report released by the company
-                  on Tuesday.
+                  Tesla’s stock has dropped by 13% this week, according to the
+                  company’s earnings report.
                 </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel1">
+                <div class="overlay-image" style="background-image: url(./images/forest.jpg);"></div>
+                <div class="container" id="carousel-item">
+                  <h1>Nykaa crosses 12 billion valuation</h1>
+                  <p>
+                    The Indian e-commerce giant has crossed the 12 billion
+                    valuation mark, according to a report released by the company
+                    on Tuesday.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel2">
+                <div class="overlay-image" style="background-image: url(./images/night-lights.jpg);"></div>
+                <div class="container" id="carousel-item">
+                  <h1>Google to launch AI-powered search</h1>
+                  <p>
+                    Google is set to launch a new AI-powered search engine
+                    called Google Search, which will be available in the US
+                    and Canada in the next quarter.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel3">
+                <div class="overlay-image" style="background-image: url(./images/space.jpg);"></div>
+                <div class="container" id="carousel-item">
+                  <h1>SpaceX to launch rocket</h1>
+                  <p>
+                    SpaceX is set to launch a new rocket this year, according to
+                    a report released by the company on Tuesday.
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="overlay-image" style="background-image: url(./images/night-lights.jpg);"></div>
-              <div class="container" id="carousel-item">
-                <h1>Google to launch AI-powered search</h1>
-                <p>
-                  Google is set to launch a new AI-powered search engine
-                  called Google Search, which will be available in the US
-                  and Canada in the next quarter.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="overlay-image" style="background-image: url(./images/space.jpg);"></div>
-              <div class="container" id="carousel-item">
-                <h1>SpaceX to launch rocket</h1>
-                <p>
-                  SpaceX is set to launch a new rocket this year, according to
-                  a report released by the company on Tuesday.
-                </p>
-              </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselNewsHeadlines" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselNewsHeadlines" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselNewsHeadlines" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselNewsHeadlines" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
     </section>
 
     <!-- News Section -->
     <section>
-      <div class="container pt-5" id="newsContainer">
-        <div class="row text-center gap-5">
+      <div class="container-fluid py-3s">
+        <div class="row g-3 text-center text-center" id="newsContainer">
+          <!-- <div class="col" id="newsContainer"></div> -->
           <!-- <div class="col-md">
             <div class="card">
               <div class="card-body">
@@ -133,7 +136,7 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <img src="./images/night-lights.jpg" alt="" class="card-img-top" id="overlay-img-news">
+                <img src="./images/space.jpg" alt="" class="card-img-top" id="overlay-img-news">
                 <p class="card-text">
                   Some quick example text to build on the card title and make
                   up the bulk of the card's content.
@@ -142,7 +145,8 @@
               </div>
             </div>
           </div> -->
-        </div>
+
+        <!-- </div> -->
       </div>
     </section>
 
@@ -151,7 +155,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="main.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
