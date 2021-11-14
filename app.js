@@ -17,7 +17,7 @@ const carousel3Element = document.getElementById('carousel3');
 // });
 
 async function getNews() {
-  await fetch('http://localhost:3000', {
+  await fetch('https://aunali.netlify.app/api', {
     method: "GET",
     mode: "cors",
     headers: {
