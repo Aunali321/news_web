@@ -86,11 +86,23 @@ img {
 
 #carouselHeadline {
     position: absolute;
+    padding-bottom: 200px;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+#carousel-p {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 40px;
+    color: white;
+    opacity: 0.8;
 }

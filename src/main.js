@@ -34,24 +34,32 @@ async function getNews() {
         var carousel3Data = data.articles[43];
 
         carousel0Element.innerHTML = `
+        <div class="container-fluid">
         <div class="overlay-image" style="background-image: url(${carousel0Data.urlToImage});"></div>
         <a href="${carousel0Data.url}" id="carouselHeadline">${carousel0Data.title}</a>
-        <p id="carousel-item">${carousel0Data.description}</p>
+        <p id="carousel-p">${carousel0Data.description}</p>
+        </div>
         `;
         carousel1Element.innerHTML = `
+        <div class="container-fluid">
         <div class="overlay-image" style="background-image: url(${carousel1Data.urlToImage});"></div>
         <a href="${carousel0Data.url}" id="carouselHeadline">${carousel1Data.title}</a>
-        <p id="carousel-item">${carousel1Data.description}</p>
+        <p id="carousel-p">${carousel1Data.description}</p>
+        </div>
         `;
         carousel2Element.innerHTML = `
+        <div class="container-fluid">
         <div class="overlay-image" style="background-image: url(${carousel2Data.urlToImage});"></div>
         <a href="${carousel0Data.url}" id="carouselHeadline">${carousel2Data.title}</a>
-        <p id="carousel-item">${carousel2Data.description}</p>
+        <p id="carousel-p">${carousel2Data.description}</p>
+        </div>
         `;
         carousel3Element.innerHTML = `
-        <div class="overlay-image" style="background-image: url(${carousel3Data.urlToImage});"></div>
+        <div class="container-fluid">
+        <div class="overlay-p" style="background-image: url(${carousel3Data.urlToImage});"></div>
         <a href="${carousel0Data.url}" id="carouselHeadline">${carousel3Data.title}</a>
         <p id="carousel-item">${carousel3Data.description}</p>
+        </div>
         `;
 
         data.articles.forEach(article => {
