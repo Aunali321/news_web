@@ -43,21 +43,21 @@ async function getNews() {
         carousel1Element.innerHTML = `
         <div class="container-fluid">
         <div class="overlay-image" style="background-image: url(${carousel1Data.urlToImage});"></div>
-        <a href="${carousel0Data.url}" id="carouselHeadline">${carousel1Data.title}</a>
+        <a href="${carousel1Data.url}" id="carouselHeadline">${carousel1Data.title}</a>
         <p id="carousel-p">${carousel1Data.description}</p>
         </div>
         `;
         carousel2Element.innerHTML = `
         <div class="container-fluid">
         <div class="overlay-image" style="background-image: url(${carousel2Data.urlToImage});"></div>
-        <a href="${carousel0Data.url}" id="carouselHeadline">${carousel2Data.title}</a>
+        <a href="${carousel2Data.url}" id="carouselHeadline">${carousel2Data.title}</a>
         <p id="carousel-p">${carousel2Data.description}</p>
         </div>
         `;
         carousel3Element.innerHTML = `
         <div class="container-fluid">
         <div class="overlay-p" style="background-image: url(${carousel3Data.urlToImage});"></div>
-        <a href="${carousel0Data.url}" id="carouselHeadline">${carousel3Data.title}</a>
+        <a href="${carousel3Data.url}" id="carouselHeadline">${carousel3Data.title}</a>
         <p id="carousel-item">${carousel3Data.description}</p>
         </div>
         `;
