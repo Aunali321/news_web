@@ -105,4 +105,8 @@ img {
     padding-bottom: 40px;
     color: white;
     opacity: 0.8;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
 }
