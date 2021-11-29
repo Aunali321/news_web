@@ -1,5 +1,5 @@
 [build]
-functions = "functions"
+functions = "netlify/functions"
 
 [[redirects]]
 to = "/.netlify/functions/server/:splat"
