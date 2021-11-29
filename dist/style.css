@@ -98,6 +98,7 @@ img {
 
 #carousel-p {
     margin: auto;
+    padding-top: 5px;
     position: absolute;
     bottom: 0;
     left: 0;
